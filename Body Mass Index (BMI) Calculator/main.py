@@ -43,7 +43,7 @@ class MainUi(QMainWindow, Ui_MainWindow):  #  MainUi 繼承自兩個類別(Pytho
                 self.label_4.setText("輕度肥胖")
             elif 30 <= bmi < 35:
                 self.label_4.setText("中度肥胖")
-            elif 35 <= bmi :
+            elif 35 <= bmi :                       #不採用else保持新增方便性
                 self.label_4.setText("重度肥胖")
         except ValueError:
             self.msg()
