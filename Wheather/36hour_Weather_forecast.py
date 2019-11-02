@@ -432,7 +432,7 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
             tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
             the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
-        elif cityName == '臺東市':
+        elif cityName == '臺東縣':
             number = 18
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
             today_maxTemperature = data['cwbopendata']['dataset']['location'][number]['weatherElement'][1]['time'][0]['parameter']['parameterName']
