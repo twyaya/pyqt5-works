@@ -12,6 +12,8 @@
 <img src="https://scontent.ftpe7-2.fna.fbcdn.net/v/t1.0-9/76620526_833467753736142_1091725633752399872_o.jpg?_nc_cat=109&_nc_oc=AQm9_5Gkq6fGf8jAEZNXGYUyEL9hw5CC_aGUQBEnPN5WmezKJlARNVrwhJNW3vMvOCn91CQGPLLDHhRBY1DC-IyZ&_nc_ht=scontent.ftpe7-2.fna&oh=2e1a8f7e9a8b320443e04e1d61ef02c5&oe=5E1C4DB7"></img>
 
 
+參考資料:Python GUI 程式設計：PyQt5 實戰、爾摩儲藏室PyQt5筆記
+
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/tw/88x31.png" /></a><br />本著作係採用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/">創用 CC 姓名標示-非商業性-相同方式分享 3.0 台灣 授權條款</a>授權.
 
