@@ -3,7 +3,11 @@
 
 因為作品都不大所以共同放在這個專案裡面。
 
-第二個作品是36小時天氣查詢，透過交通部中央氣象局開放資料平台取得36小時天氣資料(Json格式)實現。
+第二個作品是36小時天氣查詢，透過交通部中央氣象局-開放資料平臺開放資料平台取得36小時天氣資料(Json格式)實現。
+
+使用技術:<b>Python Json解析 PyQt5 </b>
+
+
 
 <img src="https://scontent.ftpe7-2.fna.fbcdn.net/v/t1.0-9/76620526_833467753736142_1091725633752399872_o.jpg?_nc_cat=109&_nc_oc=AQm9_5Gkq6fGf8jAEZNXGYUyEL9hw5CC_aGUQBEnPN5WmezKJlARNVrwhJNW3vMvOCn91CQGPLLDHhRBY1DC-IyZ&_nc_ht=scontent.ftpe7-2.fna&oh=2e1a8f7e9a8b320443e04e1d61ef02c5&oe=5E1C4DB7"></img>
 
