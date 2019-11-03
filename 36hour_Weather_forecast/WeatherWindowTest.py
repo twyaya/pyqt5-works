@@ -86,7 +86,7 @@ class WeatherWindowTest(unittest.TestCase):
         print('*** testCase test_defaults end ***')
 		
 
-	# 測試案例-測試計數器控制項
+	# 測試案例-測試控制項
     def test_weatherComboBox(self):
         '''	測試用例 test_weatherComboBox '''	
         print('*** testCase test_weatherComboBox begin ***')
