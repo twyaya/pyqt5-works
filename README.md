@@ -9,7 +9,7 @@
 
 
 
-<img src="https://scontent.ftpe7-2.fna.fbcdn.net/v/t1.0-9/76620526_833467753736142_1091725633752399872_o.jpg?_nc_cat=109&_nc_oc=AQm9_5Gkq6fGf8jAEZNXGYUyEL9hw5CC_aGUQBEnPN5WmezKJlARNVrwhJNW3vMvOCn91CQGPLLDHhRBY1DC-IyZ&_nc_ht=scontent.ftpe7-2.fna&oh=2e1a8f7e9a8b320443e04e1d61ef02c5&oe=5E1C4DB7"></img>
+<img src="https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.0-9/75576359_835001153582802_3339220833645101056_n.jpg?_nc_cat=105&_nc_oc=AQnweUUksRwdH6Eu2_iX-9Ie9OYrQWlMPTs4HKtSc0PMaYWn2MtMAdjM630xTwEWoBbK0_O3ZQDVfUPi0qAyWGhI&_nc_ht=scontent.ftpe7-4.fna&oh=5ce5446b8f0b9e1f8efecfd2f5118489&oe=5E62C14E"></img>
 
 
 參考資料:Python GUI 程式設計：PyQt5 實戰、爾摩儲藏室PyQt5筆記
