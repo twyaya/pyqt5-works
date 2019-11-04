@@ -27,6 +27,8 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
         self.ui = Ui_Form()
         self.ui.setupUi(self)
         self.setWindowTitle("天氣查詢頁面")
+        self.setWindowIcon(QtGui.QIcon('icon.png'))
+
 
 
     def clearResult(self):
