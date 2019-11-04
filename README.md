@@ -12,7 +12,7 @@
 <img src="https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.0-9/75576359_835001153582802_3339220833645101056_n.jpg?_nc_cat=105&_nc_oc=AQnweUUksRwdH6Eu2_iX-9Ie9OYrQWlMPTs4HKtSc0PMaYWn2MtMAdjM630xTwEWoBbK0_O3ZQDVfUPi0qAyWGhI&_nc_ht=scontent.ftpe7-4.fna&oh=5ce5446b8f0b9e1f8efecfd2f5118489&oe=5E62C14E"></img>
 
 
-參考資料:<a href="http://elmer-storage.blogspot.com/2018/07/python.html">Python GUI 程式設計：PyQt5 實戰</a>、<a href="http://elmer-storage.blogspot.com/2018/07/python.html">爾摩儲藏室PyQt5筆記</a>
+參考資料:<a href="https://www.books.com.tw/products/0010787989">Python GUI 程式設計：PyQt5 實戰</a>、<a href="http://elmer-storage.blogspot.com/2018/07/python.html">爾摩儲藏室PyQt5筆記</a>
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/tw/88x31.png" /></a><br />本著作係採用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/">創用 CC 姓名標示-非商業性-相同方式分享 3.0 台灣 授權條款</a>授權.
