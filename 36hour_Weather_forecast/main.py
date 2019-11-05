@@ -16,15 +16,7 @@ from PyQt5 import QtGui
 """
 轉換成dict
 """
-data_url = "https://opendata.cwb.gov.tw/fileapi/v1/opendataapi/F-C0032-001?Authorization=CWB-54BBDDF9-E30A-4218-9F60-07D8D4F44EA0&downloadType=WEB&format=JSON"
-try:
-    urlretrieve(data_url,'./wheather.json') #儲存氣象局天氣預報json檔案
-    with open("wheather.json","r",encoding="utf-8") as f:
-        data = json.load(f) 
-    print(data['cwbopendata']['sent'])
-    
-except IOError:
-    print("載入失敗:請確認網路是否連結")
+
     
     
 
@@ -595,9 +587,22 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
         
         
 if __name__ == "__main__":
-    def run_app():
-        app = QApplication(sys.argv)
-        window = MainUi()
-        window.show()
-        app.exec_()
-    run_app()
+    data_url = "https://opendata.cwb.gov.tw/fileapi/v1/opendataapi/F-C0032-001?Authorization=CWB-54BBDDF9-E30A-4218-9F60-07D8D4F44EA0&downloadType=WEB&format=JSON"
+    try:
+        urlretrieve(data_url,'./wheather.json') #儲存氣象局天氣預報json檔案
+        with open("wheather.json","r",encoding="utf-8") as f:
+            data = json.load(f) 
+            print("載入時間:",data['cwbopendata']['sent'])
+            
+            def run_app():
+                app = QApplication(sys.argv)
+                window = MainUi()
+                window.show()
+                app.exec_()
+            run_app()
+    
+    except IOError:
+        print("載入失敗:請確認網路是否連結")
+
+    
+
