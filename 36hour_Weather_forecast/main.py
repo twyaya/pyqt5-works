@@ -13,14 +13,6 @@ from PyQt5.QtWidgets import QApplication , QMainWindow
 from PyQt5 import QtGui
 
 
-"""
-轉換成dict
-"""
-
-    
-    
-
-
 class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的多重繼承)
     def __init__(self, parent=None):
         super(QMainWindow, self).__init__(parent)
@@ -591,9 +583,10 @@ if __name__ == "__main__":
     try:
         urlretrieve(data_url,'./wheather.json') #儲存氣象局天氣預報json檔案
         with open("wheather.json","r",encoding="utf-8") as f:
-            data = json.load(f) 
+            data = json.load(f) #轉換成dict
             print("載入時間:",data['cwbopendata']['sent'])
-            
+
+
             def run_app():
                 app = QApplication(sys.argv)
                 window = MainUi()
