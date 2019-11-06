@@ -51,9 +51,9 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
             
             
         elif cityName == '新北市' :
@@ -77,9 +77,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '桃園市' :
             number = 2
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -101,9 +102,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '臺中市' :
             number = 3
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -125,9 +127,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '臺南市' :
             number = 4
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -149,9 +152,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '高雄市' :
             number = 5
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -173,9 +177,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '基隆市' :
             number = 6
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -197,9 +202,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '新竹縣' :
             number = 7
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -221,9 +227,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '新竹市' :
             number = 8
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -245,9 +252,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '苗栗縣' :
             number = 9
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -269,9 +277,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '彰化縣' :
             number = 10
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -293,9 +302,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '南投縣' :
             number = 11
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -317,9 +327,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '雲林縣' :
             number = 12
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -341,9 +352,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '嘉義縣' :
             number = 13
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -365,9 +377,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '嘉義市' :
             number = 14
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -389,9 +402,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '屏東縣' :
             number = 15
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -413,9 +427,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '宜蘭縣' :
             number = 16
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -437,9 +452,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '花蓮縣' :
             number = 17
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -461,9 +477,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '臺東縣':
             number = 18
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -485,9 +502,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '澎湖縣' :
             number = 19
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -509,9 +527,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '金門縣' :
             number = 20
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -533,9 +552,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         elif cityName == '連江縣' :
             number = 21
             today_wheather = data['cwbopendata']['dataset']['location'][number]['weatherElement'][0]['time'][0]['parameter']['parameterName']
@@ -557,10 +577,10 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
             the_day_after_tomorrow_comfort_index = data['cwbopendata']['dataset']['location'][number]['weatherElement'][3]['time'][2]['parameter']['parameterName']
             the_day_after_tomorrow_probability_of_precipitation = data['cwbopendata']['dataset']['location'][number]['weatherElement'][4]['time'][2]['parameter']['parameterName']
             
-            today = cityName + "今日天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
-            tomorrow = cityName + "明日天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
-            the_day_after_tomorrow = cityName + "後天天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
-        
+            today = cityName + "今早天氣: "+ today_wheather + "\n" + "最高溫(攝氏): " + today_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + today_minTemperature + "°C" + "\n" + "舒適度: " + today_comfort_index + "\n" + "降雨機率: " + today_probability_of_precipitation + "%"+ "\n" 
+            tomorrow = cityName + "今晚天氣: "+ tomorrow_wheather + "\n" + "最高溫(攝氏): " + tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + tomorrow_comfort_index + "\n" + "降雨機率: " + tomorrow_probability_of_precipitation + "%"+ "\n" 
+            the_day_after_tomorrow = cityName + "明早天氣: "+ the_day_after_tomorrow_wheather + "\n" + "最高溫(攝氏): " + the_day_after_tomorrow_maxTemperature + "°C" + "\n" + "最低溫(攝氏): " + the_day_after_tomorrow_minTemperature + "°C" + "\n" + "舒適度: " + the_day_after_tomorrow_comfort_index + "\n" + "降雨機率: " + the_day_after_tomorrow_probability_of_precipitation + "%"
+            
         return today,tomorrow,the_day_after_tomorrow
 
     def queryWeather(self):
