@@ -1,7 +1,7 @@
 # 作品 製作:張皓偉
 這裡由一個簡單的bmi計算器，作為學習計畫的開始，因為作品都複雜所以共同放在這個專案裡面。
 
-<img src="https://i.imgur.com/JNt8UbN.png"></img>
+<img src="https://i.imgur.com/pwx08CE.png"></img>
 
 
 
