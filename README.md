@@ -7,6 +7,8 @@
 
 第二個作品是36小時全國各縣市天氣查詢，透過交通部中央氣象局-開放資料平臺開放資料平台取得36小時天氣資料(Json格式)實現，並使用Qtdesigner完成UI設計工作。
 
+參照Python GUI 程式設計：PyQt5 實戰範例，將網路爬蟲方式改成下載json並解析，改善原本不能獲取台灣各縣市資料的問題。
+
 使用技術:<b>Python Json解析 PyQt5 錯誤處理 </b>
 
 <img src="https://i.imgur.com/BT2h8nK.png"></img>
