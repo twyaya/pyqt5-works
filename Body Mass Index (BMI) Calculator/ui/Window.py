@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Main_Window.ui'
+# Form implementation generated from reading ui file 'Window.ui'
 #
 # Created by: PyQt5 UI code generator 5.9.2
 #
@@ -61,6 +61,19 @@ class Ui_MainWindow(object):
         self.height = QtWidgets.QLineEdit(self.layoutWidget1)
         self.height.setObjectName("height")
         self.gridLayout_3.addWidget(self.height, 1, 1, 1, 1)
+        self.horizontalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.horizontalLayoutWidget.setGeometry(QtCore.QRect(50, 400, 183, 80))
+        self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
+        self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        self.label_6 = QtWidgets.QLabel(self.horizontalLayoutWidget)
+        self.label_6.setObjectName("label_6")
+        self.horizontalLayout_2.addWidget(self.label_6)
+        self.bmi_last = QtWidgets.QLabel(self.horizontalLayoutWidget)
+        self.bmi_last.setText("")
+        self.bmi_last.setObjectName("bmi_last")
+        self.horizontalLayout_2.addWidget(self.bmi_last)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 827, 21))
@@ -79,4 +92,5 @@ class Ui_MainWindow(object):
         self.pushButton.setText(_translate("MainWindow", "完成"))
         self.label_2.setText(_translate("MainWindow", "您的BMI為:"))
         self.label_5.setText(_translate("MainWindow", "分析:"))
+        self.label_6.setText(_translate("MainWindow", "上次紀錄:"))
 
