@@ -9,7 +9,9 @@
 
 參照Python GUI 程式設計：PyQt5 實戰範例，將網路爬蟲方式改成下載json並解析，改善原本不能獲取台灣各縣市資料的問題。
 
-使用技術:<b>Python、Json解析、PyQt5錯誤處理 </b>
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
+使用技術:<b>Json解析、PyQt5錯誤處理 </b>
 
 <img src="https://i.imgur.com/BT2h8nK.png"></img>
 
