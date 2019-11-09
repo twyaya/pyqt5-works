@@ -11,7 +11,7 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-使用技術:<b>Json解析、PyQt5錯誤處理 </b>
+使用技術:<b>Json解析、PyQt5、錯誤處理 </b>
 
 <img src="https://i.imgur.com/BT2h8nK.png"></img>
 
