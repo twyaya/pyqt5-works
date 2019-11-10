@@ -4,7 +4,7 @@ Why are all works in here? Because they are small.
 
 <h2>BMI calculator.</h2>
 
-1.It is a easy BMI calculator.
+It is a easy BMI calculator.
 
 一個簡單的BMI計算器，因為作品都不複雜所以共同放在這個專案裡面。
 
@@ -16,13 +16,13 @@ Function:<b>BMI calculator、Input mask (fool-proof design)、Exception handling
 
 <h2>2.36hour_Weather_forecast</h2>
  
-36hour_Weather_forecast,Through CWB of MOTC - Open Data Platform get weather data.
+36hour_Weather_forecast,Through CWB of MOTC - Open Data Platform get weather data, UI design by Qtdesigner.
 
 36小時全國各縣市天氣查詢，透過交通部中央氣象局-開放資料平臺開放資料平台取得36小時天氣資料(Json格式)實現，並使用Qtdesigner完成UI設計工作。
 
 Refer to Python GUI 程式設計：PyQt5 實戰範例, I have made major revision to process Taiwan's counties and cities's data(JSON) and formatted output.
 
-參照Python GUI 程式設計：PyQt5 實戰範例，將網路爬蟲方式改成下載JSON並解析，改善原本不能獲取台灣各縣市資料的問題。
+參照Python GUI 程式設計：PyQt5 實戰範例，將網路爬蟲方式改成下載JSON並解析，改善原本不能獲取台灣各縣市資料的問題，並格式化輸出。
 
 Function:<b>36hour_Weather_forecast、Exception handling</b>
 
