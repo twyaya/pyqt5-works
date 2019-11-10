@@ -16,7 +16,7 @@ Function:<b>BMI calculator、Input mask (fool-proof design)、Exception handling
 
 <img src="https://i.imgur.com/LEs0mlX.png"></img>
 
-<h2>2.36hour_Weather_forecast</h2>
+<h2>36hour_Weather_forecast</h2>
  
 36hour_Weather_forecast,Through CWB of MOTC - Open Data Platform get weather data, UI design by Qtdesigner.
 
