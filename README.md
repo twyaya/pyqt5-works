@@ -1,8 +1,8 @@
 #  Autonomous Learning Program Works
 
-Why are all works in here? Because they are small.
+Why are two works in here? Because they are small and easy.
 
-為什麼所有作品都在這裡。 因為作品都不複雜所以共同放在這個專案裡面。
+為什麼有兩個作品在這裡。 因為他們都不複雜所以共同放在這個專案裡面。
 
 <h2>BMI calculator.</h2>
 
