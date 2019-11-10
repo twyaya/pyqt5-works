@@ -2,11 +2,13 @@
 
 Why are all works in here? Because they are small.
 
+為什麼所有作品都在這裡。 因為作品都不複雜所以共同放在這個專案裡面。
+
 <h2>BMI calculator.</h2>
 
 It is a easy BMI calculator.
 
-一個簡單的BMI計算器，因為作品都不複雜所以共同放在這個專案裡面。
+一個簡單的BMI計算器
 
 Function:<b>BMI calculator、Input mask (fool-proof design)、Exception handling</b>
 
