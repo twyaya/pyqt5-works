@@ -601,9 +601,9 @@ class MainUi(QMainWindow, Ui_Form):  #  MainUi 繼承自兩個類別(Python的�
 if __name__ == "__main__":
     data_url = "https://opendata.cwb.gov.tw/fileapi/v1/opendataapi/F-C0032-001?Authorization=CWB-54BBDDF9-E30A-4218-9F60-07D8D4F44EA0&downloadType=WEB&format=JSON"
     try:
-        urlretrieve(data_url,'./wheather.json') #儲存氣象局天氣預報json檔案
+        urlretrieve(data_url,'./wheather.json') #Save Weather_data(JSON) 儲存氣象局天氣預報json檔案
         with open("wheather.json","r",encoding="utf-8") as f:
-            data = json.load(f) #轉換成dict
+            data = json.load(f) #Convert into dict
             print("載入時間:",data['cwbopendata']['sent'])
 
 
@@ -615,7 +615,7 @@ if __name__ == "__main__":
             run_app()
     
     except IOError:
-        print("載入失敗:請確認網路是否連結")
+        print("IOError (載入失敗:請確認網路是否連結)")
 
     
 
