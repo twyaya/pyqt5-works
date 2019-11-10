@@ -18,7 +18,7 @@ Function:<b>BMI calculator、Input mask (fool-proof design)、Exception handling
 
 <h2>36hour_Weather_forecast</h2>
  
-36hour_Weather_forecast,Through CWB of MOTC - Open Data Platform get weather data, UI design by Qtdesigner.
+36hour_Weather_forecast,it through CWB of MOTC - Open Data Platform get weather data, UI design by Qtdesigner.
 
 36小時全國各縣市天氣查詢，透過交通部中央氣象局-開放資料平臺開放資料平台取得36小時天氣資料(Json格式)實現，並使用Qtdesigner完成UI設計工作。
 
