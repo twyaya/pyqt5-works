@@ -2,7 +2,9 @@
 
 Why are all works in here? Because they are small.
 
-<h2>1.It is a easy BMI calculator.</h2>
+<h2>BMI calculator.</h2>
+
+1.It is a easy BMI calculator.
 
 一個簡單的BMI計算器，因為作品都不複雜所以共同放在這個專案裡面。
 
