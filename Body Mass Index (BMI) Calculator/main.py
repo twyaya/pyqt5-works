@@ -27,6 +27,8 @@ class MainUi(QMainWindow, Ui_MainWindow):  #  MainUi 繼承自兩個類別(Pytho
         self.pushButton.clicked.connect(self.pushButton_onClick) 
         self.times = 0
         self.bmi_list = []
+        self.height.setInputMask("999")
+        self.weight.setInputMask("99")
 
 
 
