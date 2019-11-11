@@ -1,8 +1,12 @@
 #  Autonomous Learning Program Works
 
-Why are two works in here? Because they are small and easy. When I have new idea,I will hands-on, make works more than more better.
+Why are two works in here? Because they are small and easy. 
 
-為什麼有兩個作品在這裡。 因為他們都不複雜所以共同放在這個專案裡面，每當有新想法會實作，讓作品越來越好，
+When I have new idea,I will hands-on, make works more than more better.
+
+為什麼有兩個作品在這裡。 因為他們都不複雜所以共同放在這個專案裡面。
+
+每當有新想法會實作，讓作品越來越好。
 
 <h2>BMI calculator.</h2>
 
