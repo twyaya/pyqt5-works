@@ -1,8 +1,8 @@
 #  Autonomous Learning Program Works
 
-Why are two works in here? Because they are small and easy.
+Why are two works in here? Because they are small and easy. When I have new idea,I will hands-on, make works more than more better.
 
-為什麼有兩個作品在這裡。 因為他們都不複雜所以共同放在這個專案裡面。
+為什麼有兩個作品在這裡。 因為他們都不複雜所以共同放在這個專案裡面，每當有新想法會實作，讓作品越來越好，
 
 <h2>BMI calculator.</h2>
 
@@ -37,6 +37,16 @@ Reference:<a href="https://www.books.com.tw/products/0010787989">Python GUI 程�
 UML:
 
 <img src="https://i.imgur.com/16hb66b.jpg"></img>
+
+2019/10/20 完成BMI 作品
+2019/10/23  建置36hr天氣預報ui
+2019/11/2  完成36hr天氣預報作品
+2019/11/4 新增36hr天氣預報icon
+2019/11/7 BMI 新增錯誤處理
+2019/11/9 BMI計算器新增記錄功能
+2019/11/11 BMI計算器輸入遮罩完成(防呆機制)
+
+
 
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
