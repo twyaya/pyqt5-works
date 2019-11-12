@@ -60,7 +60,7 @@ UML:
 
 2019/11/11 BMI計算器輸入遮罩完成(防呆機制)
 
-
+2019/11/12 新增36hr天氣預報測試
 
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
