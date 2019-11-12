@@ -1,8 +1,12 @@
 #  Autonomous Learning Program Works
 
-Why are two works in here? Because they are small and easy.
+Why are two works in here? Because they are small and easy. 
 
-為什麼有兩個作品在這裡。 因為他們都不複雜所以共同放在這個專案裡面。
+When I have new idea,I will hands-on, make works more than more better.
+
+為什麼有兩個作品在這裡? 因為他們都不複雜所以共同放在這個專案裡面。
+
+每當有新想法會實作，讓作品越來越好。
 
 <h2>BMI calculator.</h2>
 
@@ -13,6 +17,8 @@ It is a easy BMI calculator.
 Function:<b>BMI calculator、Input mask (fool-proof design)、Exception handling</b>
 
 功能:<b>BMI計算、輸入遮罩(防呆功能)、錯誤處理</b>
+
+<h3>Preview</h3>
 
 <img src="https://i.imgur.com/LEs0mlX.png"></img>
 
@@ -30,6 +36,8 @@ Function:<b>36hour_Weather_forecast、Exception handling</b>
 
 功能:<b>36小時全國各縣市天氣查詢、錯誤處理</b>
 
+<h3>Preview</h3>
+
 <img src="https://i.imgur.com/BT2h8nK.png"></img>
 
 Reference:<a href="https://www.books.com.tw/products/0010787989">Python GUI 程式設計：PyQt5 實戰</a>、<a href="http://elmer-storage.blogspot.com/2018/07/python.html">爾摩儲藏室PyQt5筆記</a>
@@ -37,6 +45,22 @@ Reference:<a href="https://www.books.com.tw/products/0010787989">Python GUI 程�
 UML:
 
 <img src="https://i.imgur.com/16hb66b.jpg"></img>
+
+2019/10/20 完成BMI 作品
+
+2019/10/23  建置36hr天氣預報ui
+
+2019/11/2  完成36hr天氣預報作品
+
+2019/11/4 新增36hr天氣預報icon
+
+2019/11/7 BMI 新增錯誤處理
+
+2019/11/9 BMI計算器新增記錄功能
+
+2019/11/11 BMI計算器輸入遮罩完成(防呆機制)
+
+
 
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
