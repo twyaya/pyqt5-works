@@ -18,6 +18,8 @@ Function:<b>BMI calculator、Input mask (fool-proof design)、Exception handling
 
 功能:<b>BMI計算、輸入遮罩(防呆功能)、錯誤處理</b>
 
+<h3>Preview</h3>
+
 <img src="https://i.imgur.com/LEs0mlX.png"></img>
 
 <h2>36hour_Weather_forecast</h2>
@@ -33,6 +35,8 @@ Refer to Python GUI 程式設計：PyQt5 實戰範例, I have made major revisio
 Function:<b>36hour_Weather_forecast、Exception handling</b>
 
 功能:<b>36小時全國各縣市天氣查詢、錯誤處理</b>
+
+<h3>Preview</h3>
 
 <img src="https://i.imgur.com/BT2h8nK.png"></img>
 
