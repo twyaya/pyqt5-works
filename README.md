@@ -30,6 +30,8 @@ It is a easy BMI calculator.
 
 4.<b>analysis 分析</b>
 
+5.<b>Last record 上次紀錄</b>
+
 <h2>36hour_Weather_forecast</h2>
  
 36hour_Weather_forecast,it through CWB of MOTC - Open Data Platform get weather data, UI design by Qtdesigner.
