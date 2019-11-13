@@ -18,7 +18,7 @@ try:
     for i in range(21):
         pyautogui.moveTo(886, 385)  #選像欄
         pyautogui.click()
-        pyautogui.keyDown('down')
+        pyautogui.keyDown('down')       #改用鍵盤解決了原本滑鼠定位的問題 
         time.sleep(1)
 
 
