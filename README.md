@@ -18,7 +18,7 @@ It is a easy BMI calculator.
 
 <h3>Preview</h3>
 
-<img src="https://i.imgur.com/LEs0mlX.png"></img>
+<img src="https://i.imgur.com/GIAVZCP.gif"></img>
 
 <h3>Feature 特色</h3>
 
@@ -44,7 +44,7 @@ Refer to Python GUI 程式設計：PyQt5 實戰範例, I have made major revisio
 
 <h3>Preview</h3>
 
-<img src="https://i.imgur.com/BT2h8nK.png"></img>
+<img src="https://i.imgur.com/ixjj1Vt.gif"></img>
 
 <h3>Feature 特色</h3>
 
