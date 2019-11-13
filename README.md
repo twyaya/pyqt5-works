@@ -80,6 +80,7 @@ UML:
 
 2019/11/12 新增36hr天氣預報GUI測試  
 
+2019/11/13 新增gif預覽
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
