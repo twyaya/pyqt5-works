@@ -50,7 +50,7 @@ Function:<b>36hour_Weather_forecast、Exception handling</b>
 
 1.<b>Easy to use 簡單好用</b>
 
-2.<b>含全自動GUI測試</b>
+2.<b>Automatic GUI test 全自動GUI測試</b>
 
 3.<b>Exception handling 錯誤處理</b>
 
