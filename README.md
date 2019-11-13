@@ -18,7 +18,7 @@ It is a easy BMI calculator.
 
 <img src="https://i.imgur.com/LEs0mlX.png"></img>
 
-<h3>Feature</h3>
+<h3>Feature 特色</h3>
 
 1.<b>Easy to use 簡單好用</b>
 
@@ -46,7 +46,7 @@ Function:<b>36hour_Weather_forecast、Exception handling</b>
 
 <img src="https://i.imgur.com/BT2h8nK.png"></img>
 
-<h3>Feature</h3>
+<h3>Feature 特色</h3>
 
 1.<b>Easy to use 簡單好用</b>
 
