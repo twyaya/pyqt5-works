@@ -15,7 +15,7 @@ pyautogui.click()
 time.sleep(1)
 
 try:
-    for i in range(22):
+    for i in range(21):
         pyautogui.moveTo(886, 385)  #選像欄
         pyautogui.click()
         pyautogui.keyDown('down')
