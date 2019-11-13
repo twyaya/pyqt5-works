@@ -14,13 +14,19 @@ It is a easy BMI calculator.
 
 一個簡單的BMI計算器
 
-Function:<b>BMI calculator、Input mask (fool-proof design)、Exception handling</b>
-
-功能:<b>BMI計算、輸入遮罩(防呆功能)、錯誤處理</b>
-
 <h3>Preview</h3>
 
 <img src="https://i.imgur.com/LEs0mlX.png"></img>
+
+<h3>Feature</h3>
+
+1.<b>Easy to use 簡單好用</b>
+
+2.<b>Input mask (fool-proof design)輸入遮罩(防呆功能)</b>
+
+3.<b>Exception handling 錯誤處理</b>
+
+4.<b>analysis 分析</b>
 
 <h2>36hour_Weather_forecast</h2>
  
@@ -39,6 +45,14 @@ Function:<b>36hour_Weather_forecast、Exception handling</b>
 <h3>Preview</h3>
 
 <img src="https://i.imgur.com/BT2h8nK.png"></img>
+
+<h3>Feature</h3>
+
+1.<b>Easy to use 簡單好用</b>
+
+2.<b>含全自動GUI測試</b>
+
+3.<b>Exception handling 錯誤處理</b>
 
 Reference:<a href="https://www.books.com.tw/products/0010787989">Python GUI 程式設計：PyQt5 實戰</a>、<a href="http://elmer-storage.blogspot.com/2018/07/python.html">爾摩儲藏室PyQt5筆記</a>
 
