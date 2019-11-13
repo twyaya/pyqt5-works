@@ -1,5 +1,7 @@
 #  Autonomous Learning Program Works
 
+<strong>注意:以下作品在Python 3.7.3版本 IPython 7.6.1版本下可完整執行，使用Spyder3編寫。</strong>
+
 Why are two works in here? Because they are small and easy. 
 
 When I have new idea,I will hands-on, make works more than more better.
