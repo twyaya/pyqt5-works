@@ -42,6 +42,8 @@ Function:<b>36hour_Weather_forecast、Exception handling</b>
 
 Reference:<a href="https://www.books.com.tw/products/0010787989">Python GUI 程式設計：PyQt5 實戰</a>、<a href="http://elmer-storage.blogspot.com/2018/07/python.html">爾摩儲藏室PyQt5筆記</a>
 
+測試部分參考 <a href="https://www.books.com.tw/products/0010739372">Python 自動化的樂趣：搞定重複瑣碎&單調無聊的工作</a>一書
+
 UML:
 
 <img src="https://i.imgur.com/16hb66b.jpg"></img>
@@ -66,6 +68,9 @@ UML:
 
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
+
+感謝呂睦欽老師提供建議。
 
  Made by 張皓偉 in 2019
  
