@@ -46,11 +46,13 @@ UML:
 
 <img src="https://i.imgur.com/16hb66b.jpg"></img>
 
+幾乎都超越預估進度
+
 2019/10/20 完成BMI 作品
 
-2019/10/23  建置36hr天氣預報ui
+2019/10/23 建置36hr天氣預報ui
 
-2019/11/2  完成36hr天氣預報作品
+2019/11/2 完成36hr天氣預報作品
 
 2019/11/4 新增36hr天氣預報icon
 
@@ -60,7 +62,7 @@ UML:
 
 2019/11/11 BMI計算器輸入遮罩完成(防呆機制)
 
-2019/11/12 新增36hr天氣預報測試
+2019/11/12 新增36hr天氣預報GUI測試  
 
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
