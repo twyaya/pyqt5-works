@@ -38,9 +38,7 @@ Refer to Python GUI 程式設計：PyQt5 實戰範例, I have made major revisio
 
 參照Python GUI 程式設計：PyQt5 實戰範例，將網路爬蟲方式改成下載JSON並解析，改善原本不能獲取台灣各縣市資料的問題，並格式化輸出。
 
-Function:<b>36hour_Weather_forecast、Exception handling</b>
-
-功能:<b>36小時全國各縣市天氣查詢、錯誤處理</b>
+主程式約482行 不含GUI
 
 <h3>Preview</h3>
 
