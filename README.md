@@ -16,7 +16,7 @@ It is a easy BMI calculator.
 
 一個簡單的BMI計算器
 
-<h3>Preview</h3>
+<h3>Preview 預覽</h3>
 
 <img src="https://i.imgur.com/GIAVZCP.gif"></img>
 
@@ -44,7 +44,7 @@ Refer to Python GUI 程式設計：PyQt5 實戰範例, I have made major revisio
 
 主程式約482行 不含GUI
 
-<h3>Preview</h3>
+<h3>Preview 預覽</h3>
 
 <img src="https://i.imgur.com/ixjj1Vt.gif"></img>
 
