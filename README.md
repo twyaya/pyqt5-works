@@ -46,7 +46,7 @@ Refer to Python GUI 程式設計：PyQt5 實戰範例, I have made major revisio
 
 <h3>Preview 預覽</h3>
 
-<img src="https://i.imgur.com/ixjj1Vt.gif"></img>
+<img src="https://i.imgur.com/dj19Mu3.gif"></img>
 
 <h3>Feature 特色</h3>
 
@@ -91,6 +91,8 @@ UML:
 2019/11/12 新增36hr天氣預報全自動GUI測試  
 
 2019/11/13 新增gif預覽
+
+2019/11/15 改善gif色差
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
