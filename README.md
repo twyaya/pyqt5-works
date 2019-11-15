@@ -14,7 +14,7 @@ When I have new idea,I will hands-on, make works more than more better.
 
 It is a easy BMI calculator.
 
-一個簡單的BMI計算器
+一個簡單的BMI計算器，將選修課上的BMI製成桌機板，增添記錄功能。
 
 <h3>Preview 預覽</h3>
 
@@ -64,11 +64,19 @@ UML:
 
 <img src="https://i.imgur.com/16hb66b.jpg"></img>
 
-幾乎都超越預估進度
+幾乎都超越預估進度，用下課後零散時間製作而成。
 
 2019/10/20 完成BMI 作品
 
 2019/10/23 建置36hr天氣預報ui
+
+2019/10/26 BMI完成作品一 加Try 語法 輸入錯誤視窗
+
+2019/10/29  處理天氣json 1/2
+
+2019/10/31 處理天氣json 
+
+2019/11/1 標楷體字體 顯示格式化
 
 2019/11/2 完成36hr天氣預報作品
 
