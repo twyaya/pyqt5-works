@@ -97,7 +97,7 @@ UML:
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 
-感謝呂睦欽老師提供建議。
+感謝呂睦卿老師提供建議。
 
  Made by 張皓偉 in 2019
  
