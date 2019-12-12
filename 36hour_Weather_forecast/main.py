@@ -4,7 +4,7 @@ Spyder Editor
 
 This is a temporary script file.
 """
-#下載json檔案
+
 import sys
 from urllib.request import urlretrieve
 import json
